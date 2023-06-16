@@ -9,7 +9,13 @@ h1{
 .top{
     background-image: url(developer-portfolio/top-banner.png);
     background-repeat: no-repeat;
-}    
+    padding-bottom: 10%;
+} 
+.middle{
+    background-image: url(developer-portfolio/dream-bg.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    padding-bottom: 15%;}   
 .button{
     text-decoration: none;
     background-image: linear-gradient(rgb(251, 168, 26), tomato);
@@ -28,3 +34,12 @@ section{
 .half-width img{
     padding-top: 5%;
     width: 80%;}
+    .half-width2{
+        width: 50%;
+        padding-right: 10%;}
+    .half-width2 img{
+        padding-top: 5%;
+        padding-left: 20%;
+        width: 80%;}
+
+

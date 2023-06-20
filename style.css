@@ -4,6 +4,9 @@ body{
 }
 h1{
     font-size: 50px;}
+    h2{
+        font-size: 40px;
+    }
 .text{
     text-align: justify;}
 .top{
@@ -53,7 +56,34 @@ section{
         padding-bottom: 10%;
     }
     .shadow{
-        box-shadow: 10px 10px teal;
+        width: 40%;
+        box-shadow: 10px 10px 40px rgb(113, 123, 123);
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-bottom:4%;
+        
+        
+        }
+    .experience2{
+        background-image: url(developer-portfolio/exp-bg.png);
+        background-repeat: no-repeat;
+        padding-bottom: 5%;
+    }
+    #border-image {
+        border-left: 7px solid;
+        border-image: linear-gradient(cyan, blue) 27 ;
     }
 
+    #border-image1 {
+        border-left: 7px solid;
+        /* border-image-slice: 1; */
+        border-image: linear-gradient(red, rgb(169, 182, 48)) 27;
+    }
+    footer p {
+        text-align: center;
+    }
+    
+    
 
